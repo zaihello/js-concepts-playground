@@ -1,5 +1,14 @@
-# Vue 3 + Vite
+# JavaScript 概念範例
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+這個專案包含了各種 JavaScript 核心概念的程式碼範例，每個範例都獨立運作。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 範例清單
+
+### 1.類別繼承 ( Class Inheritance)
+- **簡介**:展示如何使用類別繼承來建立不同種類的商品，並重用程式碼。
+- **範例**:`./class-inheritance/`
+  - [**原生 JS 寫法**](link-to-plain-js-file)
+  - [**Vue 寫法**](link-to-vue-file) 
+

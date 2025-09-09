@@ -6,6 +6,7 @@ function* getProductsFromDatabase(){
     yield ["產品 K", "產品 L", "產品 M", "產品 N", "產品 O"];
 }
 const products = ref([])
+// Create a Generator
 const productGenerator = getProductsFromDatabase()
 
 const loadProducts = () => {

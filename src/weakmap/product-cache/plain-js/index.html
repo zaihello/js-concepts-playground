@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeakMap 產品快取範例</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 p-8">
+    <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-md">
+      <h1 class="text-2xl font-bold mb-2">WeakMap 產品快取範例</h1>
+      <p class="text-gray-600 mb-4">
+        這個範例展示了 <code>WeakMap</code> 如何為物件（產品）建立一個「快取」，
+        並且在物件被垃圾回收時，自動清除相關的快取資料。
+      </p>
+      <button
+        onclick="simulateGarbageCollection()"
+        class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
+      >
+        模擬產品從頁面移除
+      </button>
+      <div id="output" class="border border-gray-300 p-4 mt-6 rounded bg-gray-50 min-h-[100px]"></div>
+    </div>
+    <script src="private-data.js"></script>
+  </body>
+</html>
