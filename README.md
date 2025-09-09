@@ -9,6 +9,6 @@
 ### 1.類別繼承 ( Class Inheritance)
 - **簡介**:展示如何使用類別繼承來建立不同種類的商品，並重用程式碼。
 <!-- - **範例**:`./class-inheritance/` -->
-  - [**原生 JS 寫法**](./classes/classInheritance/plain-js/index.html)
+  - [**原生 JS 寫法**](./src/classes/classInheritance/plain-js/index.html)
   - [**Vue 寫法**](./classes/classInheritance/vue-js) 
 
