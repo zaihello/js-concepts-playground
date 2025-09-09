@@ -8,7 +8,14 @@
 
 ### 1.類別繼承 ( Class Inheritance)
 - **簡介**:展示如何使用類別繼承來建立不同種類的商品，並重用程式碼。
-<!-- - **範例**:`./class-inheritance/` -->
-  - [**原生 JS 寫法**](./src/classes/classInheritance/plain-js/index.html)
+  - [**原生 JS 寫法 (畫面)**](./src/classes/classInheritance/plain-js/index.html)
+  - [**原生 JS 寫法 (程式碼)**](./src/classes/classInheritance/plain-js/product-inheritance.js)
+
   - [**Vue 寫法**](./classes/classInheritance/vue-js) 
+
+### 2.WeakMap
+- **簡介**:
+  - [**原生 JS 寫法 (畫面)**](./src/weakmap/class-weakmap/plain-js/index.html)
+  - [**原生 JS 寫法 (程式碼)**](./src/weakmap/class-weakmap/plain-js/class-weakmap.js)
+  - [**Vue 寫法**](./src/weakmap/class-weakmap/vue-js/src/components/classWeakmap.vue) 
 
