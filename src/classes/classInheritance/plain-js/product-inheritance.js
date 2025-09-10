@@ -50,7 +50,7 @@ class PhysicalProduct extends Product {
         `
     }
 }
-
+// 建立 DigitalProduct 子類別
 class DigitalProduct extends Product {
     constructor(name,price,downloadUrl) {
         super(name,price)

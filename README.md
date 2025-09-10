@@ -10,7 +10,12 @@
 - **簡介**:展示如何使用類別繼承來建立不同種類的商品，並重用程式碼。
   - [**原生 JS 寫法 (畫面)**](./src/classes/classInheritance/plain-js/index.html)
   - [**原生 JS 寫法 (程式碼)**](./src/classes/classInheritance/plain-js/product-inheritance.js)
-  - [**Vue 寫法**](./classes/classInheritance/vue-js) 
+  - [**Vue 寫法**](./src/classes/classInheritance/vue-js/src/components/productInheritance.vue) 
+
+- **簡介**:使用者角色繼承範例。此範例展示如何使用類別繼承來定義不同權限的使用者角色，並在畫面上顯示它們各自的獨特資訊與行為。
+  - [**原生 JS 寫法 (畫面)**](./src/classes/classInheritance-2/plain-js/index.html)
+  - [**原生 JS 寫法 (程式碼)**](./src/classes/classInheritance-2/plain-js/userRoleInheritance.js)
+  - [**Vue 寫法**](./src/classes/classInheritance-2/vue-js/src/components/userRoleInheritance.vue)
 
 ### 2.WeakMap
 - **簡介**:Class + WeakMap 隱藏庫存範例。在 Class 中儲存私有資料，並在物件被移除時自動清理(weakmap)。 
