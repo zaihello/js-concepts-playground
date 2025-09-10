@@ -29,3 +29,10 @@
   - [**原生 JS 寫法 (畫面)**](./src/generators/plain-js/index.html)
   - [**原生 JS寫法 (程式碼)**](./src/generators/plain-js/infinite-scroll-demo.js)
   - [**Vue 寫法**](./src/generators/vue-js/src/components/InfiniteScroll.vue)
+
+---
+
+## 如何使用
+1. Clone或下載此專案
+2. 打開您感興趣的檔案，並在瀏覽器中運行。
+3. 如果範例有搭配Vite專案，請先執行 `npm install`。
