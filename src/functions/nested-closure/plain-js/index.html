@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>電商購物車的折扣計算 範例</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 p-8">
+    <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-md">
+      <h1 class="text-2xl font-bold mb-2">電商購物車的折扣計算 範例</h1>
+      <p class="tetx-gray-600 mb-4">此範例展示了如何使用 **巢狀函式** 和 **閉包** 來封裝購物車的資料。</p>
+      <div class="mb-8 border border-gray-200 p-6 rounded-lg">
+        <h2>商品列表</h2>
+        <div>
+          <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow-md" data-name="智慧型手機" data-price="500">
+            <span class="text-lg">智慧型手機</span>
+            <span class="text-lg font-medium text-gray-700">$500</span>
+            <button class="add-to-cart bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-200">加入購物車</button>
+          </div>
+          <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow-md" data-name="藍芽耳機" data-price="120">
+            <span class="text-lg">藍芽耳機</span>
+            <span class="text-lg font-medium text-gray-700">$120</span>
+            <button class="add-to-cart bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-200">加入購物車</button>
+          </div>
+          <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow-md" data-name="筆記型電腦" data-price="1200">
+            <span class="text-lg">筆記型電腦</span>
+            <span class="text-lg font-medium text-gray-700">$1200</span>
+            <button class="add-to-cart bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-200">加入購物車</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="border border-gray-200 p-6 rounded-lg bg-gray-50">
+        <h2 class="text-2xl font-semibold mb-4 text-blue-600">購物車摘要</h2>
+        <p class="text-lg mb-2">折扣率 : <span id="discount-display" class="font-semibold text-red-500">15%</span></p>
+        <p class="text-xl font-bold">購物車總價 (已折扣) : <span id="cart-total" class="text-red-600">$0</span></p>
+      </div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

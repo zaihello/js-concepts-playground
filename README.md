@@ -35,6 +35,12 @@
   - [**原生 JS寫法 (程式碼)**](./src/generators/plain-js/infinite-scroll-demo.js)
   - [**Vue 寫法**](./src/generators/vue-js/src/components/InfiniteScroll.vue)
 
+### 4.Nested Functions + Closures (巢狀函數+閉包)
+- **簡介**:電商購物車的折扣計算範例。這個範例清楚地展示了巢狀函式如何利用閉包來存取父層的變數，實現資料的封裝和模組化。
+  - [**原生 JS 寫法 (畫面)**](./src/functions/nested-closure/plain-js/index.html)
+  - [**原生 JS寫法 (程式碼)**](./src/functions/nested-closure/plain-js/script.js)
+  - [**Vue 寫法**](./src/functions/nested-closure/vue-js/src/components/nestedClosure.vue)
+
 ---
 
 ## 如何使用
